@@ -3,12 +3,12 @@
 require_once('twitter.php');
 
 // Twitter OAuth Config options
-$oauth_access_token = '262433789-fsAq37SQpW0BWB2DBaqF0upJsPB5kuyhJlsClSKV'; // 'Access token' on https://apps.twitter.com
-$oauth_access_token_secret = 'GYclON6IaZIAIAGOCH9VsbyMEosalNn7qSesW3Exk9bUa'; // 'Access token secret' on https://apps.twitter.com
-$consumer_key = 'RHALiJUCwTZoTRfOrnG13JZCq'; // 'API key' on https://apps.twitter.com
-$consumer_secret = 'M86eBarcMkWcusVhuaqQalcvmBVYtXfeqHCryK9LntzUzSbUi6'; // 'API secret' on https://apps.twitter.com
-$user_id = '262433789'; // User id (http://gettwitterid.com/)
-$screen_name = 'siva01sankar'; // Twitter handle
+$oauth_access_token = '262433789-fsAq37SQpW0BWB2DBaqF0upJsPB5kuyhJlsClSKV'; // Access token
+$oauth_access_token_secret = 'GYclON6IaZIAIAGOCH9VsbyMEosalNn7qSesW3Exk9bUa'; // Access token secret
+$consumer_key = 'RHALiJUCwTZoTRfOrnG13JZCq'; // API key
+$consumer_secret = 'M86eBarcMkWcusVhuaqQalcvmBVYtXfeqHCryK9LntzUzSbUi6'; // API secret
+$user_id = '262433789'; // Owner ID
+$screen_name = 'siva01sankar'; // Owner
 
 if (isset($_POST['count'])) {
     $count = $_POST['count'];
